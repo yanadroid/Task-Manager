@@ -23,7 +23,7 @@ class TaskModelAdapter extends TypeAdapter<TaskModel> {
       dueDate: fields[3] as DateTime?,
       tags: (fields[4] as List).cast<String>(),
       priority: fields[5] as TaskPriority,
-      attachments: (fields[6] as List).cast<String?>(),
+      attachments: (fields[6] as List).cast<String>(),
     );
   }
 

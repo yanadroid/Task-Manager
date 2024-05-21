@@ -29,7 +29,7 @@ class TaskModel extends Task {
   final TaskPriority priority;
   @override
   @HiveField(6)
-  final List<String?> attachments;
+  final List<String> attachments;
 
   const TaskModel({
     required this.id,

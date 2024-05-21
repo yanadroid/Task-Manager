@@ -9,7 +9,7 @@ class Task extends Equatable {
   final DateTime? dueDate;
   final List<String> tags;
   final TaskPriority priority;
-  final List<String?> attachments;
+  final List<String> attachments;
 
   const Task(
       {required this.id,
